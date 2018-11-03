@@ -10,7 +10,7 @@ A **Docker** virtual machine created and provisioned with **Vagrant**. This repo
 1. Clone (or [download and extract](https://github.com/W1M0R/docker-vagrant/archive/master.zip)) this repository into *INSERT_YOUR_PATH_HERE*.
 1. Open a terminal window and browse to *INSERT_YOUR_PATH_HERE*
 1. Run `vagrant up` to start the virtual machine.
-1. Run `vagrant ssh` to access a terminal inside the virtual machine.
+1. Run `vagrant ssh` to access a terminal inside the virtual machine using your current shell.
 1. Run `vagrant ssh-config` if you want to configure a different **SSH** client to access the virtual machine.
 1. Use **Docker** inside the virtual machine.
 1. Run `sudo shutdown now` *inside* the virtual machine or `vagrant halt` *outside* the virtual machine when you are done.
