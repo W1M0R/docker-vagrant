@@ -10,3 +10,6 @@ A **Docker** virtual machine created and provisioned with **Vagrant**. This repo
 1. Clone (or [download and extract](https://github.com/W1M0R/docker-vagrant/archive/master.zip)) this repository into *INSERT_YOUR_PATH_HERE*.
 1. Open a terminal window and browse to *INSERT_YOUR_PATH_HERE*
 1. Run `vagrant up`.
+1. Run `vagrant ssh`.
+1. Use **Docker** inside the virtual machine.
+1. Run `vagrant halt` when you are done.
