@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 echo "Installing docker-machine as user '$(whoami)'."
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 source $SCRIPT_DIR/functions.sh
